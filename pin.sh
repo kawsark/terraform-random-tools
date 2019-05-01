@@ -6,4 +6,3 @@ terraform apply --auto-approve &> /dev/null
 terraform output pin | pbcopy
 terraform destroy --auto-approve &> /dev/null
 echo "4 digit pin copied"
-cd -
